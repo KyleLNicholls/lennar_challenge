@@ -1,0 +1,31 @@
+.logo {
+    width: 53px;
+    height: 47px;
+    margin-right: 20px;
+}
+
+.headerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerFlex a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 12px;
+}
+
+.headerFlex a:hover {
+    color: #d4d4d4;
+}
+
+.headerButton {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+@media only screen and (max-width: 860px) {
+    .headerFlex {
+        display: none;
+    }
+}

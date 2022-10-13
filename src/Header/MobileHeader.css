@@ -1,0 +1,80 @@
+.mobileHeader {
+    height: 75px;
+}
+
+@media only screen and (min-width: 861px) {
+    .mobileHeader {
+        display: none;
+    }
+}
+
+.mobileLogo {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+}
+
+.mobileMenuButton {
+    position: absolute;
+    z-index: 1;
+    top: 36px;
+    right: 20px;
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+}
+
+.mobileMenuButton:active {
+    outline: #6365f1 solid 2px;
+}
+
+.menuOverlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(120,120,120,.5);
+}
+
+.mobileMenu {
+    position: absolute;
+    background-color: white;
+    width: calc(100% - 12px);
+    margin: 6px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 90px 16px 16px;
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    color: black;
+    font-size: 18px;
+}
+
+.mobileMenu a {
+    color: #3b3b3b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.mobileMenu a:hover {
+    color: black;
+}
+
+.mobileMenuNavLinks {
+    padding-bottom: 20px;
+}
+
+.mobileMenuNavLinks > a {
+    display: block;
+    padding: 10px 0px;
+}
+
+.mobileMenuFooter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mobileMenuFooter > a {
+    margin-left: 8px;
+}

@@ -1,0 +1,59 @@
+.title1 {
+    color: white;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.title2 {
+    color: #6365f1;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.trialInfo {
+    max-width: 60%;
+}
+
+.trialInfo a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.trialForm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.emailInput {
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-right: 12px;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 860px) {
+    .trialInfo {
+        max-width: 100%;
+    }
+
+    .emailInput {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,25 @@
+.customButton {
+    box-sizing: border-box;
+    height: 40px;
+    background-color: #6365f1;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+.customButton:active {
+    border: 2px solid black;
+    outline: #6365f1 solid 2px;
+}
+
+.customButton:hover {
+    background-color: #4e46e5;
+}
+
+@media only screen and (max-width: 860px) {
+    .customButton {
+        width: 100%;
+    }
+}
